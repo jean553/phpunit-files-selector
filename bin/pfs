@@ -1,4 +1,0 @@
-#!/bin/bash
-
-BINPATH=`pwd`
-python "$BINPATH/../main.py" $@

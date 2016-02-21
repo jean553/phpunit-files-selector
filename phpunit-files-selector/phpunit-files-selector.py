@@ -1,9 +1,12 @@
+#!/usr/bin/python
+
 '''
 Routines to analyze file lines
 '''
+import sys
 
 TEST_CLASS_DECLARATION_SUFFIX = 'class'
-TEST_CLASS_WIP_GROUP = '//@group wip\n'
+TEST_CLASS_WIP_GROUP = '/** @group wip */\n'
 
 def is_line_class_declaration(line):
     '''
@@ -44,3 +47,6 @@ def main(file_name):
                 break
 
         file_object.writelines(lines)
+
+if __name__ == '__main__':
+    main(sys.argv[1])
