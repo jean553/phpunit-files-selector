@@ -1,6 +1,6 @@
 # phpunit-files-selector
 
-Add/remove automatically a test anotation in phpunit files.
+Add/remove automatically a test annotation in phpunit files.
 
 ## Installation
 
