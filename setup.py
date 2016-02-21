@@ -5,6 +5,6 @@ setup(
     version='0.1dev',
     license='MIT',
     packages=['phpunit-files-selector',],
-    long_description=open('README.txt').read(),
+    long_description=open('README.md').read(),
     scripts=['phpunit-files-selector/phpunit-files-selector.py']
 )
